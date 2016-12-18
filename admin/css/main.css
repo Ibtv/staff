@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:12px;
+}
+ul,li,h2{margin:0;padding:0;}
+ul{list-style:none;}
+#top{
+	width:979px;
+	height:26px;
+	background-image: url(../images/h2bg.gif);
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-repeat: repeat-x;
+}
+#top h2{
+	width:150px;
+	height:24px;
+	float:left;
+	font-size:12px;
+	text-align:center;
+	line-height:20px;
+	color:#0066FF;`
+	font-weight: bold;
+	padding-top: 2px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #99BBE8;
+	border-left-color: #99BBE8;
+}
+#top .jg {
+	width: 5px;
+	float: left;
+	background-color: #DCE6F5;
+	height: 26px;
+}
+#topTags{
+	width:820px;
+	height:24px;
+	float:left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 2px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #99BBE8;
+	border-left-color: #99BBE8;
+}
+#topTags ul li{
+	height:21px;
+	margin-right:4px;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	padding-top: 3px;
+	color: #15428B;
+	font-size: 16px;
+}
+#main{
+	width:979px;
+	height:561px;
+	background-color:#F5F7E6;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#main .jg {
+	width: 5px;
+	float: left;
+	background-color: #DFE8F6;
+	height:560px;
+}
+#leftMenu{
+	width:150px;
+	height:560px;
+	background-color:#DAE7F6;
+	float:left;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #99BBE8;
+	border-left-color: #99BBE8;
+	overflow: hidden;
+}
+#leftMenu ul{margin:10px;}
+#leftMenu ul li{
+	width:130px;
+	height:22px;
+	display:block;
+	cursor:pointer;
+	text-align:center;
+	margin-bottom:5px;
+	background-color: #D9E8FB;
+	background-image: url(../images/tabbg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-top: 2px;
+	line-height: 20px;
+	text-decoration:none;
+}
+#leftMenu ul li a{
+	color:#000000;
+	text-decoration:none;
+	background-image: url(../images/tb-btn-sprite_03.gif);
+	background-repeat: repeat-x;
+}
+#content{
+	width:820px;
+	height:560px;
+	float:left;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #99BBE8;
+	border-left-color: #99BBE8;
+	background-color: #DAE7F6;
+}
+.content{
+	width:810px;
+	height:550px;
+	display:none;
+	padding:5px;
+	overflow-y:auto;
+	line-height:30px;
+	background-color: #FFFFFF;
+}
+#footer{
+	width:977px;
+	height:26px;
+	background-color:#FFFFFF;
+	line-height:20px;
+	text-align:center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #99BBE8;
+	border-left-color: #99BBE8;
+	background-image: url(../images/h2bg.gif);
+	background-repeat: repeat-x;
+}
+.content1 {width:820px;height:590px;display:block;padding:5px;overflow-y:auto;line-height:30px;}
+
+a{
+text-decoration:none;
+}
+a:link{
+/* 未被访问的链接*/
+text-decoration:none;
+color: blue;
+}
+a:visited{
+/* 已被访问过的链接*/
+text-decoration:none;
+color: blue;
+}
+a:hover{
+/* 鼠标悬浮在上的链接*/
+text-decoration:none;
+color:#F33;
+}
+a:active{
+/* 鼠标点中激活链接*/
+text-decoration:none;
+color: blue;
+}
+
+.table_Name 
+{
+	float:left;
+	width:99.5%;
+	height:30px;
+	border:1px solid #00F;
+	padding:0px;
+	margin:0px;
+	color:#ff0000;
+}
+.textarea_Name 
+{
+	float:left;
+	width:99.5%;
+	border:1px solid #00F;
+	padding:0px;
+	margin:0px;
+	color:#ff0000;
+}
+.table_Content 
+{
+	float:left;
+	width:99.5%;
+	min-height:300px;
+	border:1px solid #00F;
+	padding:0px;
+	margin:0px;
+	color:#ff0000;
+}
+.page a:link { 
+color: #0000FF; 
+text-decoration: none; 
+} 
+.page a:visited { 
+text-decoration: none; 
+color: #0000FF; 
+} 
+.page a:hover { 
+text-decoration: none; 
+color: #0000FF; 
+} 
+.page a:active { 
+text-decoration: none; 
+color: #0000FF; 
+} 
+.page{color:#0000FF;} 
+
+.dilog_bmit
+{
+	margin:0 15px;
+	display:inline-block;
+	width:60px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	background-image:url(../images/bmit.gif);
+	}
+.submitStyle {
+	width:60px;
+	height:20px;
+	border:0px;
+	color: blue;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	background:url(../images/bmit.gif);
+	}
